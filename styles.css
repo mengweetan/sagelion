@@ -151,6 +151,29 @@ h3 { font-size: 22px; }
 .signoff { color: var(--muted); font-size: 14px; }
 
 @media (max-width: 900px) {
+/* ... existing mobile code ... */
+  
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+  }
+
+  .gallery-item {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 4/3;
+  }
+
   .hero-grid, .two-col, .event-grid, .premium-grid, .advisor-card, .contact-card, .gallery, .cards.three-up { grid-template-columns: 1fr; }
   
   /* Make the header stack vertically on mobile so the links aren't lost */
@@ -246,6 +269,29 @@ h3 { font-size: 22px; }
 }
 
 @media (max-width: 900px) {
+/* ... existing mobile code ... */
+  
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+  }
+
+  .gallery-item {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 4/3;
+  }
+
   .hero-grid, .two-col, .event-grid, .premium-grid, .advisor-card, .contact-card, .gallery, .cards.three-up { grid-template-columns: 1fr; }
   
   /* Make the header stack vertically on mobile so the links aren't lost */
